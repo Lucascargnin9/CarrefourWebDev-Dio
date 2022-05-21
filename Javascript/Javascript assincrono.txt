@@ -1,0 +1,54 @@
+Javascript assíncrono
+
+Assíncrono - Não ocorre ou não se efetiva ao mesmo tempo;
+
+
+Por padrão javascript roda de maneira síncrona;
+
+No assincrono é possivel fazer uma tarefa paralelamente a outra.
+
+-------------------------------------------------------------------------
+
+##Promises
+- Objeto de processamento assíncrono
+
+Inicialmente seu valor é desconhecido. Pode então, ser resolvida ou rejeitada;
+
+3 estados:
+Pending
+
+Fullfilled
+
+Reject
+
+---------------------------------------------------------------------------
+
+Funções assincronas precisam das chaves Async/await
+
+Async - declaração de que a função é assíncrona
+
+Await - para o código "Espere a promise ser resolvida"
+
+---------------------------------------------------------------------------
+
+Apis  e Fetch
+
+Apis - application programming interface, é uma forma de intermediar os resultados do back-end com o que 
+é apresentado no front-end
+
+Você consegue acessa-la por meio de URLs
+
+.JSON - JavaScript Object notation
+é muito comum que APIs retornem seus dados no formato .jason, portanto precisamos tratar esses dados quando os recebermos
+
+
+##Fetch
+(Consumindo APIs)
+
+fetch(url,options)
+retorna uma Promise
+------------------------------------------------------------------------------
+
+
+
+

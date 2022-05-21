@@ -1,0 +1,120 @@
+##POO
+
+Programação Orientada a objetos -
+tem uma representação mais realista de conceitos do mundo real
+foca na modelagem de entidades e nas interações entre estas
+"O que fazer"
+Melhor coesão, melhor acoplamento, diminuição do Gap semântico (Diferença de representação)
+coletor de lixo - limpeza de objetos que não são utilizados (limpeza na memória)
+
+Programação Estruturada -
+tem uma representação mais simplista
+foca em operações (funções e dados)
+"Como fazer"
+Funções e procedimentos <-> Dados
+
+---------------------------------------------------------------
+
+Fundamentos -
+
+Abstração: Isolamento das principais caracteristicas de um objeto;
+
+Reuso: Criar novas unidades de código a partir de outras já existentes;
+
+Encapsulamento: Capacidade de esconder complexidades e proteger dados;
+
+
+--------------------------------------------------------------
+
+Estruturas básicas -
+-----
+Classe: 
+
+Dentro da classe que é feita a modelagem. Estrutura que abstrai um conjunto de objetos com caracteristicas similares.
+A partir das classes se criam os objetos;
+Exemplos: Carro, Viagem, Computador, Venda, Bola;
+Dicas:
+Classes são substantivos, utilizar nome significativo e o contexto deve ser considerado;
+
+class Carro {
+
+}
+-----
+
+Atributo: 
+
+Elemento de uma classe resposável por definir sua estrutura de dados (Caracteristicas)
+Exemplos: Carro - cor, bola - diametro;
+
+Atributo x variavel -
+A: O que é proprio e peculiar a alguem ou alguma coisa.
+V: Sujeito a variações ou mudanças, pode variar, inconstante;
+Dicas:
+Adjetivos, Abstração, Tipos adequados, nomes significativos e contexto;
+
+class Carro {
+int portas
+}
+
+-----
+
+Método:
+
+É uma sub-rotina que é disponibilizada pela classe. É executado quando é feita uma requisição a ele.
+Métodos usam e manipulam os atributos da classe.
+
+Ex: Carro - ligar, Venda - calcular total;
+Dicas: verbos, nomes significativos, contexto deve ser considerado;
+
+class Carro {
+
+void frear(){ (void não retorna nada)
+...
+}
+
+}
+
+Dois métodos especiais:
+Construtor e Destrutor.
+
+Construtor:
+Cria objetos a partir das classes, o nome do construtor deve ser o mesmo nome da classe.
+
+class Carro {
+ Carro (){
+  ...
+}}
+
+Destrutor, auxilia a liberar recursos:
+class Carro {
+void finalize (){ (Deve ser void e chamado finalize)
+ ...
+}}
+
+Sobrecarga: Mudar a assinatura de acordo com a necessidade 
+Assinatura - nome + parametros;
+
+-----
+
+Objeto e mensagem: 
+
+Objeto - É a representação de um conceito/entidade do mundo real que pode ser fisica ou conceitual;
+Os objetos que ficam na memoria do computador e executam o método, ocupam memória
+Classe é estatica.
+
+Criando objetos:
+
+Carro carro = new Carro ();
+
+Mensagem - É o processo de ativação de um método de um objeto. Troca de mensagem entre objetos e classes que faz o sistema funcionar
+
+Carro carro = new Carro();
+carro.<método>; (Chamando o objeto)
+
+Carro.<método>; (Chamando a classe)
+
+-----------------------------------------------------------
+
+
+
+

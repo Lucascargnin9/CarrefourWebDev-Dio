@@ -1,0 +1,32 @@
+##Paradigmas e Pilares
+
+Paradigmas - Imperativos ou Declarativos
+
+Imperativos - Orientação a objetos precisa falar como as coisas serão chamadas, a ordem...
+Declarativos - Banco de dados...
+
+Os programas são objetos que possuem uma série de propriedades.
+Pilares (Orientação a objetos): Herança, Polimorfismo, Encapsulamento, Abstração.
+
+Abstração - Dividir um problema complexo afim de simplificar sua avaliação.
+Isolar um aspecto determinado de um estado de coisas relativamente complexo.
+
+Herança - O objeto filho herda propriedades e metodos do objeto pai
+
+Emcapsulamento - Cada classe tem propriedades e metodos independentes do restante do codigo
+
+Polimorfismo - Objetos podem herdar a mesma classe pai, mas se comportam de forma diferente quando
+invocamos seus metodos.
+
+-----------------------------
+
+##Protótipos e classes
+
+OOJS - Orientação a objetos javascript
+
+Protótipos - Todos os objetos Javascript herdam propriedades e metodos de um prototype.
+O objeto Object.prototype esta no topo da cadeia
+
+Classes - Syntatic sugar: uma sintaxe feita para facilitar a escrita
+
+JS não possui classes nativamente. Todas as classes são objetos e a herança se da por prototipos

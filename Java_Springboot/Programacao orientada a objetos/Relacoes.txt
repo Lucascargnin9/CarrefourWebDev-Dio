@@ -1,0 +1,13 @@
+Relações:
+
+Herança -
+É o relacionamento entre classes em que uma classe chamada de subclasse (Classe filha) é uma extensão, um subtipo, de outra classe 
+chamada superclasse (classe pai);
+
+Devido a isto, a subclasse consegue reaproveitar os atributos e métodos dela.
+
+Finalidade da herança é criar subtipos;
+
+class A extends B { "(A está herdando B)
+	...
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lucas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-05 09:26:29 "/>
+        <attribute name="created" value="bHVjYXM7TFVDQVM7MjAyMi0wNC0wNTsiMDk6MDk6MTcgIjsyMTA4"/>
+        <attribute name="edited" value="bHVjYXM7TFVDQVM7MjAyMi0wNC0wNTsiMDk6MjY6MjkgIjsyOzIyMTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, media, soma" type="Real" array="False" size=""/>
+            <declare name="status" type="Boolean" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="(nota1+nota2+nota3)/3"/>
+            <assign variable="soma" expression="nota1+nota2+nota3"/>
+            <output expression="media" newline="True"/>
+            <output expression="soma" newline="True"/>
+            <if expression="media&gt;=6">
+                <then>
+                    <assign variable="status" expression="true"/>
+                </then>
+                <else>
+                    <assign variable="status" expression="false"/>
+                </else>
+            </if>
+            <if expression="status==true">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

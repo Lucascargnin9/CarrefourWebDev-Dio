@@ -1,0 +1,46 @@
+git init
+git add
+git commit
+--------------------------------------
+###CRIANDO UM REPOSITÓRIO
+
+ls -a (exibe arquivos ocultos)
+
+entra na pasta 
+
+abre o git bash here 
+cd/nome pasta
+
+##realizando configuração inicial
+$ git config --global user.email "lucas.cargninn@outlook.com"
+
+$ git config --global user.name Lucas
+
+git add *
+git commit -m "commit inicial"
+
+----------------------------------------
+git status (traz o status do arquivo)
+
+----------------------------------------
+###Criar repositório
+
+Novo
+ Colocar nome e definir se será publico ou privado
+
+Copia o caminho que aparece
+abre o git bash
+
+-- git remote add origin (cola o link)
+
+git remote -v (lista os caminhos)
+
+-- git push origin master
+
+-----------------------------------------
+Para adicionar item ao repositório 
+
+git clone "link https"
+git add .
+git commit -m "Inclusão das anotações do curso de SCRUM"
+git push origin main

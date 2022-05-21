@@ -1,0 +1,67 @@
+Comandos Básicos GIT - cmd
+
+Windows
+-cd (change directory, escolher para qual caminho ir)
+-cd.. (Retroceder diretório)
+-dir (listar diretorios na pasta situada)
+-cls (limpar terminal)
+## Atalho TAB (Auto completar)
+-mkdir (Criar uma pasta)
+-del (deletar arquivos apenas)
+-rmdir (remove directory)
+
+----------------------------------------------
+
+Funcionamento do GIT por baixo dos panos
+
+###SHA1 -
+Algoritmo de Hash seguro.
+Conjunto de funções hash criptográficas projetadas pela NSA que gera um conjunto de
+caracteres de 40 digitos unicos que serve como ID
+
+###OBJETOS INTERNOS DO GIT
+
+BLOBS (BLOCO BASICO DE COMPOSIÇÃO) - Armazena tipo do objeto, tamanho e conteudo do arquivo
+Tem o SHA1 do arquivo
+
+TREE - Armazenam e aponta para tipos de BLOBS. (Uma arvore pode apontar para outra arvore ou para um BLOB)
+Tem o SHA1 da arvore 
+
+COMMIT - Aponta para uma arvore, para um parente (Ultimo commit realizado antes dele),
+para um autor, aponta para uma mensagem
+Também possui um SHA1
+
+----------------
+Se você alterar uma BLOB altera o SHA1 da BLOB, da ARVORE e do COMMIT
+
+--------------------------------------------------
+###
+Chave SSH e TOKEN
+
+Chave SSH - Abrir GIT HUB
+Vai no perfil e SSH KEYS
+Abre o GIT BASH
+
+Sequencia de comandos
+ssh-keygen -t ed25519 -C "lucas.cargninn@outlook.com"
+
+local:/c/Users/lucas/.ssh/id_ed25519
+
+senha: 1234
+ cd /c/Users/lucas/.ssh
+ls
+cat id_ed25519.pub
+###Copia a chave que vai aparecer e cola no GITHUB
+
+#### Inicializando SSH AGENT
+eval $(ssh-agent -s)
+
+ls
+ssh-add id_ed25519
+
+
+
+
+
+
+

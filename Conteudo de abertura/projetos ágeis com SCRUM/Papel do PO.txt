@@ -1,0 +1,88 @@
+PAPÉIS E RESPONSABILIDADES DO (PO)
+
+Product Owner -profissional que tem a visão do que será desenvolvido,
+as necessidades a serem atendidas, o publico que vai utilizar os serviços
+e os objetivos a serem alcançados.
+
+Validar se os itens estão sendo entregues na Sprint
+
+---------------------
+
+Não há distinção hierarquica entre o PO, SM e DEV.
+SM deve treinar o time para que compreendam os fundamentos do SCRUM MASTER
+
+-----------------------
+Dentro da Sprint o PO tem presença obrigatória nas cerimonias de review e daily
+
+-----------------------
+Refining e Planning
+
+### Refining (Não é uma cerimônia oficial do framework SCRUM) 
+ O PO apresenta previamente para o time as histórias que deverão ser desenvolvidas na Planning
+ Nessa cerimonia é 
+### Planning
+Quebra das atividades é feita na Planning 
+
+2 etapas
+	1 - Pegara os itens mais especificos do backlog e ira apresentar para o time
+		Deve-se retirar todas as dúvidas.
+	2 - O PO não deve participar, o time DEV define quais atividades seão desenvolvidas para que as histórias sejam entregues
+
+------------------------
+Com as histórias mapeadas e as atividades definidas é 
+feito o Sprint backlog
+
+Sprint Backlog - com essa informação na mão o PO define qual dos itens é o mais prioritário e deve ser considerado o objetivo principal da Sprint
+
+------------------------
+###Release Planning
+
+Liberação ou lançamento de Software - Cada vez que um produto de software é criado ou modificado,
+o fabricante e seus desenvolvedores decidem sobre como distribuir ou o novo produto ou  a modificação as pessoas que o utilizam
+
+Não é obrigatório ter uma release ao final de cada Sprint
+
+------------------------
+Quanto mais Sprints você acumular antes de liberar uma Release maior a probabilidade de enfrentar problemas na etapa do Merge
+###Merge - Junção dos códigos fonte ao final das Sprints
+
+------------------------
+Release Planning multiplas Squads
+Varios times de desenvolvimento agrupados fazendo atividades distintas que podem ou não ter correlação
+mas que ao final da Sprint devem ser agrupadas em uma unica release
+## Release técnica, não tem ação direta do PO
+
+------------------------
+Release Planning de projeto
+(Um dos pontos mais criticos)
+
+PO possui demanda muito grande e será necessário quebrar em varias histórias e em varias Sprints
+É importante que o PO tenha senioridade, pois ele deve compreender a real dimensão da demanda e de cada história
+E deve quebrar as histórias o máximo que puder.
+Minimo produto viavel.
+
+PO responsavel por gerenciar as expectativas dos steackholders.
+Nunca informar quantas Sprints, isso só será possivel saber ao longo do projeto
+-------------------------
+PO não é o gerenciamento de projetos do SCRUM.
+
+### PAPEL DO PO NO PLANEJAMENTO DA RELEASE
+
+ Definir as entregas de maior valor para o cliente
+  Priorizar as entregas de maior valor para serem desenvolvidas primeiro
+	Organizar as Sprints para que seja possivel captar o retorno do cliente o mais breve possivel
+
+Com o feedback dos clientes ir ajustando as histórias para que essas entreguem cada vez mais valor
+E organizar quando as entregas da Release serão feitas
+Se entrega trara um ganho real para o cliente ou se a entrega será apenas estetica/funcional não alterando a dinamica do usuario do sistema
+
+--------------------------
+
+
+
+
+ 
+
+
+
+

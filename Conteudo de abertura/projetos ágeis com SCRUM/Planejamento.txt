@@ -1,0 +1,91 @@
+Escopo e prioridades
+
+Entender qual o objetivo ou valor que você quer atingir.
+
+Suma importância de se inspecionar cada entrega.
+-----------------------------------------------------
+
+##PRODUCT BACKLOG
+
+é composto por Épicos e Estórias
+
+
+ÉPICOS - Incremento sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir
+
+Estória - Detalhamento dos épicos, um épico normalmente se divide em várias estórias,onde ficam descritos 
+o que deve acontecer e suas regras de negócio.
+
+ ESTÓRIA-
+	nome 
+		descrição (Eu, como, quero, quando)
+			regras de negócio (Separar regras de front-end de regras de back-end)
+			Tela (Link ou imagem das telas a serem desenvolvidas)
+			KPI (Quais objetivos/valor a estória precisa atingir)
+			Tagueamento (Como a estória será tagueada para poder mensurar os KPI)
+			Critérios de aceite (Qual o Passo a Passo de todos os caminhos felizes possiveis a estória deve cumprir para que seja aceita)
+
+----------------------------------------------------------
+
+Riscos Positivos - Um dos fatores de maiores ganhos no desenvolvimento de sistemas 
+
+Negativos - Itens que podem afetar o prazo, custo ou escopo de um projeto que pode acabar o inviabilizando-o
+
+-----------------------------------------------------------
+
+###PAPEL DO PO NA TRANSFORMAÇÃO DIGITAL
+
+Transformação digital é um processo no qual as empresas fazem uso da tecnologia para melhorar o desempenho,
+aumentar o alcance e garantir resultados melhores.
+
+É uma mudança estrutural nas organizações dando um papel essencial para a tecnologia.
+
+-----------------------------------------------------------
+
+ESTÓRIAS X TAREFAS
+
+ÉPICO É O OBJETIVO MACRO QUE DEVE SER ATINGITO
+
+PARA SER ATINGIDO DEVE SER QUEBRADO EM OBJETIVOS MENORES (ESTÓRIAS)
+
+PARA REALIZAÇÃO DAS ESTÓRIAS PRECISAM-SE REALIZAR TAREFAS
+
+### ESTÓRIA É UM CONJUNTO DE TAREFAS (NÍVEL DE NEGÓCIO)
+### ÉPICO É UM CONJUNTO DE ESTÓRIAS 
+
+
+---------------------------------------------------------------
+
+CRITÉRIOS DE ACEITE
+
+
+É uma lista de critérios que precisam ser alcançados para que a user Story atenda os requisitos do usuario 
+e seja aceita pelo product owner
+
+Os critérios de aceitação tem o objetivo de: definir limites para as user stories. Ajudar o P.O a detalhar em alto nível o que é 
+necessário para entregar valor ao cliente
+
+PO precisa saber qual o objetivo que a ESTÓRIA deve atingir 
+
+-----------------------------------------------------------
+
+ESTIMATIVA E PLANEJAMENTO (PLANNING POKER)
+
+Um jogo de cartas onde cada membro do time DEV recebe cartas contendo todos os numeros da sequencia de FIBONACCI
+
+Quando todos estão prontos as ESTÓRIAS são lidas e as tarefas criadas
+Após a criação das tarefas o time DEV vota jogando uma das cartas e falando qual o tamanho daquela atividae
+Deve-se levar em conta a complexidade de se realizar a tarefa, o trabalho manual em si, e o tempo
+
+Existem tarefas de baixa complexidade que exigem muito trabalho manual, o que ocaiona em maior tempo
+
+Uma tarefa muito simples pode receber voto 1
+Já uma tarefa muito complexa voto 13
+
+Quando uma tarefa/estória recebe 20 pontos a mesma está muito complexa e deve-se quebra-la em duas
+
+Os membros do time que derem a maior e menor nota devem justificar o motivo de sua pontuação.
+
+-----------------------------------------------------------
+
+(MODELO TAMANHO DE CAMISA)
+P, M, G, GG devendo-se levar em conta os mesmos fatores do planning poker

@@ -1,0 +1,5 @@
+package UpcastDowcast;
+
+class Funcionario {
+    
+}

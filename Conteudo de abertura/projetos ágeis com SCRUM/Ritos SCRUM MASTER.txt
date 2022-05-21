@@ -1,0 +1,31 @@
+CLIENTE/STAKEHOLDER
+
+É uma pessoa ou grupo que legitima as ações de uma organização e que tem um papel direto ou indireto na gestão e 
+resultados dessa mesma organização. Desta forma, um stakeholder pode ser afetado positivamente ou negativamento, dependendo das suas
+politicas e de forma de atuação.
+
+Alguns exemplos d estakeholer de uma empresa podem ser os seus funcionarios, gestoresm gerentes, proprietários, fornecedores, concorrentes, ONGs, clientes e diversas outras
+pessoas ou empresas que estejam relacionadas com uma determinada ação ou projeto
+
+----------------------------------------
+
+### ROTINAS DE UM TIME ÁGIL
+
+DAILY (Focada nas tarefas do dia-a-dia) e RETROSPECTIVA
+
+RETROSPECTIVA - acontece após a conclusão da Sprint
+A presença do PO é importante mas não obrigatória
+A presença do SM é obrigatória
+
+---------------------------------------
+
+Refinamento (Acontece antes da planning, no final da Sprint anterior)
+
+Buscando entender a demanda, a presença de todo o time scrum é obrigatória
+
+Review - presença de todos obrigatória (Ver o que está sendo entregue)
+(Verificar se a demanda agrega valor ao negócio)
+
+
+
+

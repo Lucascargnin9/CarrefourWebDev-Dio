@@ -1,0 +1,60 @@
+Papeis e responsabilidades:
+
+###PRODUCTO OWNER (PO): 
+
+Representante da área de negócios;
+PO não é um comite;
+Define as funcionalidades do software (Product Backlog) - Prioriza o backlog
+Prioriza as funcionalidades de acordo com o valor do negócio;
+Garante que o time de desenvolvimento entenda os itens do Backlog no nível necessário;
+
+###SCRUM MASTER (SM):
+
+Garante o uso correto do SCRUM;
+Não é gerente de projetos;
+Age como facilitdador;
+Auxilia o PO no planejamento e estimativas no backlog;
+Treina o time em autogerenciamento
+
+
+###TIME DE DESENVOLVIMENTO (DEV)
+
+Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja,
+tudo que for necessário para entregar o software funcionando
+
+-----------------------------------------------------
+CERIMONIAS DO SRUM
+
+###TIME BOX - Tempo máximo para fazer uma cerimônia ou Sprint
+
+##SPRINT - corrida
+
+É o principal evento do SCRUM - Duração de o máximo 30 dias corridos
+
+Composição:
+--------------
+Planejamento
+	- PO, SM e DEV. O que fazer e como fazer?
+		Nas primeiras 4 horas o PO explica o que é necessário na Sprint
+			Outras 4 horas o time DEV faz BrainStorm do que é necessário
+Após o time DEV definir as possibilidades é informado ao PO o que será possivel entregar na SPRINT
+
+--------------
+Reuniões diárias - deve ser feita de pé (Stand up meeting)
+	Time-box: 15 minutos
+			DEVs respondem 3 perguntas: O que foi feito no dia anterior?
+				O que tá programado no dia?
+				Houve algum impedimento?
+
+PRÓPRIO TIME VAI ATUALIZANDO SUAS DEMANDAS NO QUADRO KANBAN
+--------------
+
+Revisão da Sprint
+No ultimo dia da SPRINT ocorre uma revisão onde o time DEV apresenta para o PO o trabalho feito
+4 horas no máx.
+
+---------------
+Retrospectiva da Sprint
+Time DEV aponta as lições aprendidas durante a sprint (3horas)
+
+
